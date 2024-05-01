@@ -3,7 +3,7 @@ import PageTransition from "../components/pageTransition";
 const PortfolioPage = () => {
     return (
         <PageTransition>
-            <div className="">Portfolio</div>
+            <div className="container-padding">Portfolio</div>
         </PageTransition>
     );
 };

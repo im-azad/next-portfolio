@@ -3,7 +3,7 @@ import PageTransition from "../components/pageTransition";
 const ContactPage = () => {
     return (
         <PageTransition>
-            <div className="">Contact</div>
+            <div className="container-padding">Contact</div>
         </PageTransition>
     );
 };

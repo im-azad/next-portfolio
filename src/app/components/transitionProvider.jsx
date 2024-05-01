@@ -34,8 +34,8 @@ const TransitionProvider = ({ children }) => {
                     initial={{ height: "140vh" }}
                     animate={{ height: "0vh", transition: { delay: 0.5 } }}
                 />
-                <div className="px-3 sm:px-8 md:px-12 lg:px-20 xl:px-48">
-                    <div className="h-24">
+                <div className="">
+                    <div className="h-24 px-3 sm:px-8 md:px-12 lg:px-20 xl:px-48">
                         <Navbar />
                     </div>
                     <div className="h-[calc(100vh-6rem)]">{children}</div>
