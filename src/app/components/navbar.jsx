@@ -50,10 +50,10 @@ const Navbar = () => {
             x: "100vw",
         },
         opened: {
-            x: 0,
+            x: "0vw",
             transition: {
                 when: "beforeChildren",
-                staggerChildren: 0.2,
+                staggerChildren: 0.3,
             },
         },
     };
@@ -111,7 +111,7 @@ const Navbar = () => {
                 </Link>
             </div>
             {/* RESPONSIVE MENU */}
-            <div className="md:hidden">
+            <div className="overflow-hidden md:hidden">
                 {/* MENU BUTTON */}
                 <button
                     className="w-10 h-8 flex flex-col justify-between z-50 relative"
@@ -139,12 +139,13 @@ const Navbar = () => {
                         variants={listVariants}
                         initial="closed"
                         animate="opened"
+                        transition={{ when: "beforeChildren", duration: 0.5 }}
                         className="absolute top-0 left-0 w-screen h-screen bg-black text-white flex flex-col items-center justify-center gap-8 text-4xl z-40"
                     >
                         {links.map((link) => (
                             <motion.div
                                 variants={listItemVariants}
-                                className={`p-2 transition hover:bg-indigo-600 ${
+                                className={`p-2 transition inline-block hover:bg-indigo-600 ${
                                     pathName === link.url &&
                                     "bg-indigo-600 text-white"
                                 }`}

@@ -1,9 +1,11 @@
 import Image from "next/image";
 import Link from "next/link";
+import PageTransition from "./components/pageTransition";
 
 export default function Home() {
     return (
-        <div className="h-full flex flex-col gap-6 lg:flex-row lg:justify-center lg:items-center">
+       <PageTransition>
+         <div className="h-full flex flex-col gap-6 lg:flex-row lg:justify-center lg:items-center">
             {/* Image container */}
             <div className="h-1/2 lg:h-full lg:w-1/2 z-0 relative">
                 <Image
@@ -32,5 +34,6 @@ export default function Home() {
                 </div>
             </div>
         </div>
+       </PageTransition>
     );
 }

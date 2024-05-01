@@ -1,7 +1,11 @@
+import PageTransition from "../components/pageTransition";
+
 const ContactPage = () => {
     return (
-        <div className="">Contact</div>
-    )
-}
+        <PageTransition>
+            <div className="">Contact</div>
+        </PageTransition>
+    );
+};
 
-export default ContactPage
+export default ContactPage;
