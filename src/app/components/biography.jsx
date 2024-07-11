@@ -16,15 +16,9 @@ const Biography = () => {
             <h1 className="font-bold text-2xl">BIOGRAPHY</h1>
             {/* BIOGRAPHY DESC */}
             <p className="text-lg">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-                harum quibusdam cupiditate nobis accusamus sed aut aperiam,
-                reiciendis numquam! Voluptas voluptatibus obcaecati dolore
-                itaque suscipit! Vel doloremque numquam quam nihil.
+            I am a dedicated web developer. I work on Frontend and Backend Web Application. My basic competencies are based on javascript and I love doing most things with javascript. I am an expert on Javascript, React Js, Node Js, MongoDB, Express Js, Html, CSS.
             </p>
-            {/* BIOGRAPHY QUOTE */}
-            <span className="italic">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            </span>
+           
             {/* BIOGRAPHY SIGN SVG*/}
             <div className="self-end">
                 <svg
