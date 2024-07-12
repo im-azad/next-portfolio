@@ -9,7 +9,7 @@ export default function Home() {
             {/* Image container */}
             <div className="h-1/2 lg:h-full lg:w-1/2 z-0 relative">
                 <Image
-                    src="/aka.png"
+                    src="/azad.png"
                     alt="azad"
                     fill
                     sizes="(100vw, 100vh)"
