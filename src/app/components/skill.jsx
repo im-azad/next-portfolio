@@ -64,9 +64,6 @@ const Skill = ({skillRef, isSkillRefInView}) => {
                     Three.js
                 </div>
                 <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                    WebGL
-                </div>
-                <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
                     Webpack
                 </div>
                 <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">

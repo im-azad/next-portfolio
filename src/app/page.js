@@ -29,7 +29,7 @@ export default function Home() {
                 </p>
                 {/* Buttons */}
                 <div className=" flex gap-4 justify-start">
-                    <button  className="p-4 md:px-4 md:py-4 rounded-lg ring-2 ring-indigo-600   bg-indigo-600 text-white">View My Work</button>
+                    <button  className="p-4 md:px-4 md:py-4 rounded-lg ring-2 ring-indigo-600   bg-indigo-600 text-white"><Link href="https://drive.google.com/file/d/1NAr12Ts24ZreSt392e931QAqDuVcXwBb/view?usp=sharing" target="_blank">View Resume </Link></button>
                     <button className="px-6 py-4  rounded-lg ring-2 ring-indigo-600 transition hover:text-white hover:bg-indigo-600"><Link href="/contact">Contact Me </Link></button>
                 </div>
             </div>
